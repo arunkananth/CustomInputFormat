@@ -31,7 +31,6 @@ public class CustomLineRecordReader    extends RecordReader<LongWritable, Text> 
             CustomLineRecordReader.class);
  
     /**
-     * From Design Pattern, O'Reilly...
      * This method takes as arguments the map task’s assigned InputSplit and
      * TaskAttemptContext, and prepares the record reader. For file-based input
      * formats, this is a good place to seek to the byte position in the file to
@@ -95,7 +94,6 @@ public class CustomLineRecordReader    extends RecordReader<LongWritable, Text> 
     }
  
     /**
-     * From Design Pattern, O'Reilly...
      * Like the corresponding method of the InputFormat class, this reads a
      * single key/ value pair and returns true until the data is consumed.
      */
@@ -155,7 +153,6 @@ public class CustomLineRecordReader    extends RecordReader<LongWritable, Text> 
     }
  
     /**
-     * From Design Pattern, O'Reilly...
      * This methods are used by the framework to give generated key/value pairs
      * to an implementation of Mapper. Be sure to reuse the objects returned by
      * these methods if at all possible!
@@ -167,7 +164,6 @@ public class CustomLineRecordReader    extends RecordReader<LongWritable, Text> 
     }
  
     /**
-     * From Design Pattern, O'Reilly...
      * This methods are used by the framework to give generated key/value pairs
      * to an implementation of Mapper. Be sure to reuse the objects returned by
      * these methods if at all possible!
@@ -178,7 +174,6 @@ public class CustomLineRecordReader    extends RecordReader<LongWritable, Text> 
     }
  
     /**
-     * From Design Pattern, O'Reilly...
      * Like the corresponding method of the InputFormat class, this is an
      * optional method used by the framework for metrics gathering.
      */
@@ -192,7 +187,6 @@ public class CustomLineRecordReader    extends RecordReader<LongWritable, Text> 
     }
  
     /**
-     * From Design Pattern, O'Reilly...
      * This method is used by the framework for cleanup after there are no more
      * key/value pairs to process.
      */
